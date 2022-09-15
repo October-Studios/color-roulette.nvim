@@ -79,6 +79,39 @@ color schemes and randomly chooses from this list with each neovim session.
 
 ▶️ USAGE                                                   *-▶️-usage*
 
+DEFAULT CONFIGURATION ~
+
+>
+    require('color-roulette').setup {
+      colorschemes = {
+        scheme_1 = 'ron',
+        scheme_2 = 'ron',
+        scheme_3 = 'ron',
+        scheme_4 = 'ron',
+        scheme_5 = 'ron',
+      },
+    }
+<
+
+
+Currently, this plugin only supports 5 color schemes in the configuration file.
+
+If you want to get your current color-roulette config, you can do so with:
+
+>
+    require('color-roulette').get_config()
+<
+
+
+------------------------------------------------------------------------------
+
+STARTING COLOR-ROULETTE ~
+
+>
+    require('color-roulette').setup()
+<
+
+
  
 
 <p align="center">
