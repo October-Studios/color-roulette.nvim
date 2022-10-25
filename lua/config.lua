@@ -4,7 +4,7 @@ local util = require('util')
 
 local config = {
   colorschemes = {
-    'morning',
+    'ron',
   },
 }
 

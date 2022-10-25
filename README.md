@@ -66,11 +66,7 @@ use('October-Studios/color-roulette.nvim')
 ```lua
 require('color-roulette').setup {
   colorschemes = {
-    scheme_1 = 'ron',
-    scheme_2 = 'ron',
-    scheme_3 = 'ron',
-    scheme_4 = 'ron',
-    scheme_5 = 'ron',
+    'ron',
   },
 }
 ```
