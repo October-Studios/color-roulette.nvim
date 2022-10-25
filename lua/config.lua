@@ -3,9 +3,9 @@
 local util = require('util')
 
 local config = {
-  colorschemes = [
+  colorschemes = {
     'morning',
-  ],
+  },
 }
 
 local function apply_configuration(config_table)
