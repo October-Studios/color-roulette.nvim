@@ -13,7 +13,8 @@ local function random_number(limit)
 end
 
 local function roulette()
-  local scheme = uconfig.colorschemes['scheme_' .. random_number(6)]
+  local config_size = #uconfig.colorschemes
+  local scheme = uconfig.colorschemes[random_number(config_size)]
   api.nvim_command(('colorscheme ' .. scheme))
 end
 
